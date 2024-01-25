@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".MainActivityLang">
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:background="@drawable/radias"
+        android:filterTouchesWhenObscured="false"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/video1"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:filterTouchesWhenObscured="false"
+        android:gravity="center"
+        android:text="MySQL"
+        android:textColor="#D2DDDF"
+
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/blockChain"
+        app:layout_constraintStart_toStartOf="@+id/blockChain"
+        app:layout_constraintTop_toBottomOf="@+id/blockChain" />
+
+    <TextView
+        android:id="@+id/cpp"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:gravity="center"
+        android:text="C++"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/c"
+        app:layout_constraintStart_toStartOf="@+id/c"
+        app:layout_constraintTop_toBottomOf="@+id/c" />
+
+    <TextView
+        android:id="@+id/webD"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:gravity="center"
+        android:text="Python"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/cpp"
+        app:layout_constraintStart_toStartOf="@+id/cpp"
+        app:layout_constraintTop_toBottomOf="@+id/cpp" />
+
+    <TextView
+        android:id="@+id/dataAn"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:gravity="center"
+        android:text="Java"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/webD"
+        app:layout_constraintStart_toStartOf="@+id/webD"
+        app:layout_constraintTop_toBottomOf="@+id/webD" />
+
+    <TextView
+        android:id="@+id/appD"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:gravity="center"
+        android:text="Javascript "
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/dataAn"
+        app:layout_constraintStart_toStartOf="@+id/dataAn"
+        app:layout_constraintTop_toBottomOf="@+id/dataAn" />
+
+    <TextView
+        android:id="@+id/ai"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:gravity="center"
+        android:text="HTML"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/appD"
+        app:layout_constraintStart_toStartOf="@+id/appD"
+        app:layout_constraintTop_toBottomOf="@+id/appD" />
+
+    <TextView
+        android:id="@+id/blockChain"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radias"
+        android:gravity="center"
+        android:text="CSS"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/ai"
+        app:layout_constraintStart_toStartOf="@+id/ai"
+        app:layout_constraintTop_toBottomOf="@+id/ai" />
+
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="75dp"
+        android:layout_height="92dp"
+        android:adjustViewBounds="false"
+        android:background="#5457C3"
+        app:layout_constraintBottom_toBottomOf="@+id/tech_skill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tech_skill"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/tech_skill"
+        android:layout_width="336dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="35dp"
+        android:background="#5457C3"
+        android:gravity="center|left"
+        android:paddingLeft="23dp"
+        android:text="Languages"
+        android:textColor="#63C8C8"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toEndOf="@+id/back1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

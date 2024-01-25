@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context=".MainActivityJava">
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="75dp"
+        android:layout_height="96dp"
+        android:adjustViewBounds="false"
+        android:background="#5457C3"
+        app:layout_constraintBottom_toBottomOf="@+id/tech_skill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tech_skill"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/tech_skill"
+        android:layout_width="336dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="14dp"
+        android:background="#5457C3"
+        android:gravity="center|left"
+        android:paddingLeft="80dp"
+        android:text="Java"
+        android:textColor="#63C8C8"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toEndOf="@+id/back1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/video1"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:background="@drawable/radias"
+        android:filterTouchesWhenObscured="false"
+        android:gravity="center"
+        android:text="Video tutorials "
+        android:textColor="#D2DDDF"
+
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tech_skill"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <TextView
+        android:id="@+id/notes"
+        android:layout_width="347dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="289dp"
+        android:background="@drawable/radias"
+        android:filterTouchesWhenObscured="false"
+
+        android:gravity="center"
+        android:text="Notes"
+        android:textColor="#D2DDDF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/video1"
+        app:layout_constraintStart_toStartOf="@+id/video1"
+        app:layout_constraintTop_toBottomOf="@+id/video1" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "740951140119",
+    "project_id": "code-me-ad635",
+    "storage_bucket": "code-me-ad635.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740951140119:android:7d4026591db8bcc6e67952",
+        "android_client_info": {
+          "package_name": "com.example.codeme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWQTdl-8UxitF_4jYanRwFvs3cKZ489Lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
